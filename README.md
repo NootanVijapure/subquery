@@ -1,38 +1,17 @@
-# DDL exercise
-Creating Tables:
-Create a table named Movies with the following columns:
-movie_id (integer)
-title (varchar, maximum length 100)
-director (varchar, maximum length 50)
-release_year (integer)
-genre (varchar, maximum length 50)
+# tables
+Students Table:
+course table
 
-Altering Tables:
-Alter the Movies table to add a new column named rating of type decimal(3, 1).
 
-Dropping Tables:
-Create a new table named Students with columns:
+## Write a query to retrieve the names of students who are enrolled in the 'Math' course.
 
-student_id (integer)
-student_name (varchar, maximum length 50)
-age (integer)
-grade (varchar, maximum length 2)
-Then, drop the Students table.
+## Write a query to find the names of students who are not enrolled in any course.
 
-Truncating Tables:
-Create a table named Events with columns:
+## Write a query to retrieve the names of students who are enrolled in both 'Math' and 'English' courses.
 
-event_id (integer)
-event_name (varchar, maximum length 100)
-date (date)
-location (varchar, maximum length 100)
-Insert some sample data into the Events table. Once done, truncate the table to remove all records while keeping the table structure intact.
+## Write a query to find the names of students who are not enrolled in any course using the NOT IN clause.
 
-Renaming Tables:
-Create a table named Restaurants with columns:
+## Write a query to retrieve the names of students who are enrolled in at least one course using the EXISTS clause.
 
-restaurant_id (integer)
-name (varchar, maximum length 50)
-cuisine (varchar, maximum length 50)
-location (varchar, maximum length 100)
-Rename the table to DiningSpots.
+## Write a query to find the names of students who are not enrolled in any course using the NOT EXISTS clause.
+
